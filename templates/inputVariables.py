@@ -8,10 +8,10 @@ def main(argv):
         print('inputVariables.py -i <inputfile> -o <outputfile>')
         sys.exit(2)
 
-    print(opts)
     for opt,arg in opts:
         if opt == '-h':
-            print('inputVariables.py -i <inputfile> -o <outputfile>')
+            info = 'inputVariables.py -i <inputfile> -o <outputfile>'
+            print(info)
             sys.exit()
         elif opt in ("-i", "--ifile"):
             inputfile = arg
