@@ -13,9 +13,9 @@ def main(argv):
         if opt == '-h':
             print('inputVariables.py -i <inputfile> -o <outputfile>')
             sys.exit()
-        elif opt in ("-i", "--inputFile"):
+        elif opt in ("-i", "--ifile"):
             inputfile = arg
-        elif opt in ("-o", "--outputFile"):
+        elif opt in ("-o", "--ofile"):
             outputfile = arg
 
     print("inputfile argument is : " + inputfile)
