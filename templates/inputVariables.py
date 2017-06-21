@@ -17,9 +17,9 @@ def main(argv):
             inputfile = arg
         elif opt in ("-o", "--ofile"):
             outputfile = arg
+    info ="inputfile argument is : " + inputfile + "\noutputfile argument is : " + outputfile
+    print(info)
 
-    print("inputfile argument is : " + inputfile)
-    print("outputfile argument is : " + outputfile)
 
 if __name__ == "__main__":
    main(sys.argv[1:])
