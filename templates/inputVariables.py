@@ -2,23 +2,26 @@ import sys, getopt
 def main(argv):
     inputfile=''
     outputfile=''
+    print(argv)
     try:
         opts,args = getopt.getopt(argv, "hi:o:",["ifile=","ofile="])
     except getopt.GetoptError:
-        print('inputVariables.py -i <inputfile> -o <outputfile>')
-        sys.exit(2)
+        info = 'inputVariables.py -i <inputfile> -o <outputfile>'
+        print(info)
+        return "GetOpt Error"
 
     for opt,arg in opts:
         if opt == '-h':
             info = 'inputVariables.py -i <inputfile> -o <outputfile>'
             print(info)
-            sys.exit()
+            return info
         elif opt in ("-i", "--ifile"):
             inputfile = arg
         elif opt in ("-o", "--ofile"):
             outputfile = arg
     info ="inputfile argument is : " + inputfile + "\noutputfile argument is : " + outputfile
     print(info)
+    return info
 
 
 if __name__ == "__main__":
