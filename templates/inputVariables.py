@@ -1,15 +1,16 @@
 import sys, getopt
-
 def main(argv):
     inputfile=''
     outputfile=''
     try:
-        opts,args = getopt.getopt(argv, "hi:o",["ifile=","ofile="])
+        opts,args = getopt.getopt(argv, "hi:o:",["ifile=","ofile="])
     except getopt.GetoptError:
         print('inputVariables.py -i <inputfile> -o <outputfile>')
         sys.exit(2)
+
+    print(opts)
     for opt,arg in opts:
-        if opt=='-h':
+        if opt == '-h':
             print('inputVariables.py -i <inputfile> -o <outputfile>')
             sys.exit()
         elif opt in ("-i", "--inputFile"):
@@ -17,5 +18,8 @@ def main(argv):
         elif opt in ("-o", "--outputFile"):
             outputfile = arg
 
-    print "inputfile argument is : " + inputfile
-    print "outputfile argument is : " + outputfile
+    print("inputfile argument is : " + inputfile)
+    print("outputfile argument is : " + outputfile)
+
+if __name__ == "__main__":
+   main(sys.argv[1:])
