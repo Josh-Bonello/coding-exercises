@@ -2,7 +2,6 @@ import sys, getopt
 def main(argv):
     inputfile=''
     outputfile=''
-    print(argv)
     try:
         opts,args = getopt.getopt(argv, "hi:o:",["ifile=","ofile="])
     except getopt.GetoptError:
