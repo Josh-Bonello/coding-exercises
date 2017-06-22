@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57fba2a4-293c-41a9-b47b-ff2b5b7880af" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dailyprogrammer_challenge_320/.idea/workspace.xml" afterPath="$PROJECT_DIR$/dailyprogrammer_challenge_320/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +18,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="inputVariables.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="inputVariables.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/inputVariables.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -27,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inputVariables_test.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="inputVariables_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/inputVariables_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
@@ -403,6 +404,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inputVariables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="19" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/inputVariables_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -410,14 +419,6 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/inputVariables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="19" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
