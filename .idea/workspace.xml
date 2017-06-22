@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57fba2a4-293c-41a9-b47b-ff2b5b7880af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dailyprogrammer_challenge_320/.idea/dailyprogrammer_challenge_320.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dailyprogrammer_challenge_320/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dailyprogrammer_challenge_320/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dailyprogrammer_challenge_320/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inputVariables.py" afterPath="$PROJECT_DIR$/templates/inputVariables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dailyprogrammer_challenge_320/.idea/workspace.xml" afterPath="$PROJECT_DIR$/dailyprogrammer_challenge_320/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
